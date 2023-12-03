@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Saira+Extra+Condensed:wght@100&display=swap");
+.count {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.counterBox {
+  border: 3px solid #fa9292;
+  justify-content: center;
+  display: flex;
+  background-color: #0c0b0b;
+  border-radius: 33rem;
+  padding: 4rem;
+  box-shadow: 0px 1px 19px 3px #5a5454;
+  font-size: 1.5rem;
+  color: #ff3232;
+  font-family: "Roboto", sans-serif;
+}
+.counterBox h3 {
+  cursor: pointer;
+}
+.startVideoDiv {
+  display: none;
+  width: 100%;
+}
+.startVideo {
+  object-fit: cover;
+  width: 100%;
+  height: 99.5vh;
+}
+.Home {
+  display: none;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  padding-left: 3rem;
+}
+.logo {
+  width: 50%;
+}
+.logoimg {
+  width: 22%;
+}
+nav {
+  display: flex;
+  gap: 4rem;
+  font-size: 2rem;
+  position: absolute;
+  right: 5rem;
+}
+nav a {
+  color: white;
+}
+nav a:hover {
+  color: #ff3232;
+}
+.introDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  max-width: 100%;
+  height: 85vh;
+}
+.intro {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  height: 70vh;
+}
+.introHead {
+  font-size: 3rem;
+  color: #ff3838;
+}
+.introCont {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.introBtn {
+  color: red;
+  font-size: 1.6rem;
+  background-color: black;
+  border: 2px solid white;
+  padding: 0.4rem;
+  border-radius: 2rem;
+  position: relative;
+  left: 1rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+.introImg {
+  display: flex;
+  justify-content: end;
+}
+.introCocaImg {
+  width: 70%;
+}
+.endDiv{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.endVideo{
+    width: 80%;
+    height: 80%;
+    border-radius: 2rem;
+}
+@media only screen and (width<=600px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    padding-left: 1rem;
+  }
+  .logoimg {
+    width: 60%;
+  }
+  nav {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 2rem;
+  }
+  .introDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: auto;
+    max-width: 100%;
+    height: 85vh;
+  }
+  .intro {
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    height: 70vh;
+    z-index: 8;
+  }
+  .introHead {
+    font-size: 2.5rem;
+    color: #ff3838;
+  }
+  .introCont {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+  .introBtn {
+    color: red;
+    font-size: 1.3rem;
+    background-color: black;
+    border: 2px solid white;
+    padding: 0.3rem;
+    border-radius: 2rem;
+    position: relative;
+    left: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+  }
+  .introImg {
+    display: flex;
+    justify-content: end;
+    z-index: 4;
+    margin-top: -5rem;
+  }
+  .introCocaImg {
+    width: 36%;
+  }
+}
+@media only screen and (width<=430px) {
+  nav {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .logoimg {
+    width: 80%;
+  }
+  .introCont {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+.introHead {
+    font-size: 2rem;
+    color: #ff3838;
+}
+.intro {
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    height: 70vh;
+    z-index: 8;
+}
+.introCocaImg {
+    width: 43%;
+  }
+}
